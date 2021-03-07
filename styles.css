@@ -1,0 +1,32 @@
+.container {
+  padding-left: 0;
+}
+
+.appversion1 {
+  padding: 30px 30px;
+  border-radius: 10px;
+  height: auto;
+  max-width: 600px;
+  width: 50%;
+  background-image: linear-gradient(to top, #e7f0fd 0%, #accbee 100%);
+  margin: 30px auto;
+  text-align: left;
+  color: #485156;
+}
+
+i {
+  font-size: 60px;
+  color: #ffffff;
+}
+#ispecial {
+  font-size: 25px;
+}
+
+#h1id {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#weather-text {
+  text-transform: capitalize;
+}
