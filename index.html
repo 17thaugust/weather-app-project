@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app v1.0</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/0dbf62bd9c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="src/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="appversion1">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    Weather in
+                </div>
+                <div class="col-6">
+
+                    <form class="searchButton" id="search-form">
+
+                        <div class="form-group">
+
+                            <input type="search" placeholder="Type city name" class="form-control form-control-sm"
+                                id="city-input" autocomplete="off" autofocus="on" style="width: 140%;">
+                            <input type="submit" value="Search">
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-6" id="current-date">
+                        Sunday, 14th Feb 2021
+                    </div>
+
+
+                    <div class="col-6">
+                        <i class="fas fa-cloud"></i><i class="far fa-snowflake"></i>
+                    </div>
+
+                    <div class="col-6">
+                        <h1 id="h1id"> </h1>
+                    </div>
+
+                </div>
+            </div>
+            <br>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <p id="weather-text"> </p>
+                    </div>
+
+                    <div class="col-sm">
+                        <p id="current-temp"> </p><br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        Monday<br><br>
+                        Tuesday<br><br>
+                        Wednesday<br><br>
+                        Thursday<br><br>
+                        Friday<br><br>
+                    </div>
+
+
+                    <div class="col-3">
+                        15.02.2021<br><br>
+                        16.02.2021<br><br>
+                        17.02.2021<br><br>
+                        18.02.2021<br><br>
+                        19.02.2021<br><br>
+                    </div>
+
+
+                    <div class="col-2">
+                        <i class="fas fa-snowflake" id="ispecial"></i><br><br>
+                        <i class="fas fa-cloud-sun" id="ispecial"></i><br><br>
+                        <i class="fas fa-cloud-showers-heavy" id="ispecial"></i><br><br>
+                        <i class="fas fa-sun" id="ispecial"></i><br><br>
+                        <i class="fas fa-snowflake" id="ispecial"></i>
+                    </div>
+
+
+                    <div class="col-4">
+
+                        H: -4C L: -13C<br><br>
+                        H: -6C L: -15C<br><br>
+                        H: -2C L: -8C<br><br>
+                        H: -8C L:-14C<br><br>
+                        H: -3C L: -7C<br><br>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script src="src/index.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
